@@ -1,0 +1,8 @@
+PWD /Users/tmkhoyan/github/parallelTrackingTBB/src
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/tmkhoyan/github/parallelTrackingTBB/src/triangulate_rt.cpp
+OUTPUT /Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.log
+OUTPUT /Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.pdf
+INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map

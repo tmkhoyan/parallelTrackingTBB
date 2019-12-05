@@ -1,0 +1,23 @@
+#!/bin/bash
+
+IN_DIR=./calib_desknew
+# IN_DIR_IMG=/Users/tmkhoyan/Desktop/triangulate_desk/img1
+IN_DIR_IMG=../video_detect/
+
+# filenames
+vid_l="$IN_DIR_IMG/CAMLE.mkv"
+vid_r="$IN_DIR_IMG/CAMTE.mkv"
+flname="$IN_DIR/cam_stereo_pts.yml"
+waitFPS=1;
+NimagesTograb=100000;
+
+NSTEP=5 # skip 5 steps
+
+im_out_path=$1
+
+if [ -z $im_out_path ]; then
+	im_out_path="data_out/"
+fi
+
+
+./triangulate_rt $waitFPS $NimagesTograb $flname $vid_l $vid_r $im_out_path $NSTEP

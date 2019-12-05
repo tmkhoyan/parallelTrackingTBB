@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1575589173 "/Users/tmkhoyan/github/parallelTrackingTBB/src/triangulate_rt.cpp" "/Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.pdf" "triangulate_rt" 1575589174
+  "/Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.aux" 1575589173 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/tmkhoyan/github/parallelTrackingTBB/src/triangulate_rt.cpp" 1575589084 21186 1830f34b6d5fcd07ca95fe2c7c7e12a9 ""
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
+  "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1542927339 4220281 5f138c7cca169500a0b115042c90e33c ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "triangulate_rt.cpp" 1575589084 21186 1830f34b6d5fcd07ca95fe2c7c7e12a9 ""
+  (generated)
+  "/Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.pdf"
+  "Output/triangulate_rt.pdf"
+  "/Users/tmkhoyan/github/parallelTrackingTBB/src/Output/triangulate_rt.log"
+  "Output/triangulate_rt.log"

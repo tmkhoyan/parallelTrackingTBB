@@ -1,0 +1,39 @@
+
+//imagefilenames for calibration new desk data
+
+{imageFileNames1}
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/l/left10.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/l/left11.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/l/left15.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/l/left23.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENYou can use the parser I wrote and published recently on matlabcentral and github, cvyamlParser. It can handle the header in yaml file properly.
+
+https://zenodo.org/record/2703498#.XNg20NMzafU
+
+https://github.com/tmkhoyan/cvyamlParser
+
+https://in.mathworks.com/matlabcentral/fileexchange/71508-cvyamlparser
+
+It is a MEX-file compiled for linux and osx. You can use the src file and instructions on to compile a windows version. It will take a yaml file written by open cv and convert it to a structure with the same variable names as provided in the yaml. The variable data type is inferred at runtime, optionally you can use sorting for variables that have a numerical index like A1,A2,A4,A5 etc. Use it like so:
+
+s = readcvYaml('../data/test_data.yaml') 
+s = 
+struct with fields:
+
+matA0: [1000×3 double] 
+matA1: [1000×3 double] 
+matA2: [1000×3 double] 
+Or with sorting:
+
+s = readcvYaml('../data/test_data.yaml','sorted') 
+s = 
+struct with fields:
+
+matA: [1×3 struct]CV/triangulation/calibration_data/calib_new_data/chessg1/sel/l/left26.jpg
+    
+{imageFileNames2}
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/r/right10.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/r/right11.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/r/right15.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/r/right23.jpg
+    /Users/tmkhoyan/surfdrive/DEV/OPENCV/triangulation/calibration_data/calib_new_data/chessg1/sel/r/right26.jpg
